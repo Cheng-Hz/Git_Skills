@@ -13,3 +13,12 @@
 `git branch -m master main`
 
 `git push -u origin main`
+
+`git checkout -b dev`
+
+相当于
+```
+$ git branch dev
+$ git checkout dev
+Switched to branch 'dev'
+```
