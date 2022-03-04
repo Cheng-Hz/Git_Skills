@@ -107,6 +107,8 @@ Switched to branch 'dev'
 
 `git tag v1.0`
 
+`git push origin <tagname>`
+
 
 ## Q&A
 
