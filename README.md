@@ -1,6 +1,6 @@
 # Git_Skills
 
-From 廖雪峰 https://www.liaoxuefeng.com/wiki/896043488029600/900003767775424
+引用 From 廖雪峰 https://www.liaoxuefeng.com/wiki/896043488029600/900003767775424
 
 ## Basic
 
@@ -109,7 +109,15 @@ Switched to branch 'dev'
 
 `git push origin <tagname>`
 
+## GitHub Gitee
 
+`git remote -v`
+
+`git remote rm origin`
+
+`git remote add github git@github`
+
+`git remote add gitee git@gitee`
 ## Q&A
 
 *error: src refspec master does not match any*
