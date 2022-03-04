@@ -1,6 +1,8 @@
 # Git_Skills
 
-## 廖雪峰 https://www.liaoxuefeng.com/wiki/896043488029600/900003767775424
+# 廖雪峰 https://www.liaoxuefeng.com/wiki/896043488029600/900003767775424
+
+## Basic
 
 `git clone git@`
 
@@ -48,6 +50,14 @@ Switched to branch 'dev'
 合并某分支到当前分支：`git merge <name>`
 
 删除分支：`git branch -d <name>`
+
+## Conflict
+
+`git log --graph --pretty=oneline --abbrev-commit`
+
+## --no-ff
+
+
 ## Q&A
 
 *error: src refspec master does not match any*
@@ -60,4 +70,3 @@ TEST
 
 文件存在冲突，必须手动解决冲突后再提交。`git status`也可以告诉我们冲突的文件
 
-`git log --graph --pretty=oneline --abbrev-commit`
