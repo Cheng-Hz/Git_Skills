@@ -55,3 +55,7 @@ Switched to branch 'dev'
 *error: failed to push some refs to*
 
 TEST Main
+
+TEST
+
+文件存在冲突，必须手动解决冲突后再提交。`git status`也可以告诉我们冲突的文件
